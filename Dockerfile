@@ -1,7 +1,7 @@
 FROM ubuntu:21.10
 
 RUN apt-get update && \
-    apt-get install -y curl openssl traceroute netcat iputils-ping iputils-tracepath net-tools
+    apt-get install -y curl openssl traceroute netcat iputils-ping iputils-tracepath net-tools dnsutils
 
 WORKDIR /app
 
