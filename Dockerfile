@@ -1,7 +1,7 @@
-FROM ubuntu:21.10
+FROM alpine:3.14
 
-RUN apt-get update && \
-    apt-get install -y curl openssl traceroute netcat iputils-ping iputils-tracepath net-tools dnsutils
+RUN apk update && \
+    apk add curl openssl net-tools
 
 WORKDIR /app
 

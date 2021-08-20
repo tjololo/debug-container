@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/ash
 
 while true; do
   sleep 10
