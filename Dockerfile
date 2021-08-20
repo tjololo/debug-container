@@ -1,7 +1,7 @@
 FROM alpine:3.14
 
 RUN apk update && \
-    apk add curl openssl net-tools
+    apk add curl openssl net-tools ca-certificates
 
 WORKDIR /app
 
